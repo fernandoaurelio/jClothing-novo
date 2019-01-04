@@ -1,0 +1,16 @@
+2019-01-04T11:03:46+00:00 CRITICAL syntax error, unexpected end of file, em E:\Fernando-teste\wordpress\wp-content\themes\storefront\inc\storefront-template-functions.php, na linha 657
+
+2019-01-04T11:03:48+00:00 CRITICAL syntax error, unexpected end of file, em E:\Fernando-teste\wordpress\wp-content\themes\storefront\inc\storefront-template-functions.php, na linha 657
+
+2019-01-04T11:03:57+00:00 CRITICAL syntax error, unexpected end of file, em E:\Fernando-teste\wordpress\wp-content\themes\storefront\inc\storefront-template-functions.php, na linha 657
+
+2019-01-04T11:59:10+00:00 CRITICAL syntax error, unexpected end of file, em E:\Fernando-teste\wordpress\wp-content\themes\storefront\inc\woocommerce\storefront-woocommerce-template-functions.php, na linha 878
+
+2019-01-04T11:59:23+00:00 CRITICAL syntax error, unexpected end of file, em E:\Fernando-teste\wordpress\wp-content\themes\storefront\inc\woocommerce\storefront-woocommerce-template-functions.php, na linha 876
+
+2019-01-04T11:59:51+00:00 CRITICAL syntax error, unexpected end of file, em E:\Fernando-teste\wordpress\wp-content\themes\storefront\inc\woocommerce\storefront-woocommerce-template-functions.php, na linha 876
+
+2019-01-04T12:00:06+00:00 CRITICAL syntax error, unexpected end of file, em E:\Fernando-teste\wordpress\wp-content\themes\storefront\inc\woocommerce\storefront-woocommerce-template-functions.php, na linha 876
+
+2019-01-04T14:56:33+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';', em E:\Fernando-teste\wordpress\wp-content\themes\storefront\inc\storefront-template-functions.php, na linha 568
+
