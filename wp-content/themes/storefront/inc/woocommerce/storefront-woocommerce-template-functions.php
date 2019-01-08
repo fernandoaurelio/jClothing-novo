@@ -252,8 +252,8 @@ if ( ! function_exists( 'storefront_product_categories' ) ) {
 	function storefront_product_categories( $args ) {
 		$args = apply_filters(
 			'storefront_product_categories_args', array(
-				'limit'            => 3,
-				'columns'          => 3,
+				'limit'            => 2,
+				'columns'          => 2,
 				'child_categories' => 0,
 				'orderby'          => 'name',
 				'title'            => __( 'Shop by Category', 'storefront' ),
