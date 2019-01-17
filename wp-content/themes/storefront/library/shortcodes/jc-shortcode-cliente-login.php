@@ -2,6 +2,7 @@
 
 function check_user ($params, $content = null){
 //verifica se o usuário está logado
+	$html =  '';
 	$user = wp_get_current_user();
 	if ( is_user_logged_in() ){
 //se o usuário estiver logado, não retorna nada
