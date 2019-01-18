@@ -9,15 +9,15 @@
 
 ?>
 
-		</div><!-- .col-full -->
-	</div><!-- #content -->
+</div><!-- .col-full -->
+</div><!-- #content -->
 
-	<?php do_action( 'storefront_before_footer' ); ?>
-	
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="col-full">
-			
-			<?php			
+<?php do_action( 'storefront_before_footer' ); ?>
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+	<div class="col-full">
+		
+		<?php			
 			/**
 			 * Functions hooked in to storefront_footer action
 			 *
@@ -28,10 +28,17 @@
 			?>
 
 		</div><!-- .col-full -->
-		<div class="pagamentos">
-			<img src="//assets.pagseguro.com.br/ps-integration-assets/banners/pagamento/avista_estatico_550_70.gif" alt="Logotipos de meios de pagamento do PagSeguro" title="Este site aceita pagamentos com as principais bandeiras e bancos, saldo em conta PagSeguro e boleto.">
-		</div>
 	</footer><!-- #colophon -->
+		<div class="campo-footer">
+			<div class="campo-footer-container">
+				<div class="pagamentos">
+					<img src="//assets.pagseguro.com.br/ps-integration-assets/banners/pagamento/avista_estatico_550_70.gif" alt="Logotipos de meios de pagamento do PagSeguro" title="Este site aceita pagamentos com as principais bandeiras e bancos, saldo em conta PagSeguro e boleto.">
+				</div>
+				<div class="seguranca">
+					aqui tem segurança
+				</div>
+			</div>
+		</div>		
 
 	<?php do_action( 'storefront_after_footer' ); ?>
 

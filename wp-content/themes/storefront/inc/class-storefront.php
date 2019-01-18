@@ -209,7 +209,7 @@ if ( ! class_exists( 'Storefront' ) ) :
 			);
 
 			$rows    = intval( apply_filters( 'storefront_footer_widget_rows', 1 ) );
-			$regions = intval( apply_filters( 'storefront_footer_widget_columns', 4 ) );
+			$regions = intval( apply_filters( 'storefront_footer_widget_columns', 5 ) );
 
 			for ( $row = 1; $row <= $rows; $row++ ) {
 				for ( $region = 1; $region <= $regions; $region++ ) {

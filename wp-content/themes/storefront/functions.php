@@ -105,3 +105,9 @@ function es_add_scripts() {
     wp_enqueue_script( 'script-name', get_template_directory_uri() . '/library/utils.js', array(), '1.0.0', true );    
 }
 add_action( 'wp_enqueue_scripts', 'es_add_scripts' );
+
+//* Load Lato and Merriweather Google fonts
+add_action( 'wp_enqueue_scripts', 'bg_load_google_fonts' );
+function bg_load_google_fonts() {
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Roboto:300i,400,700', array(), true );
+}
