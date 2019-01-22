@@ -182,6 +182,10 @@ if ( ! function_exists( 'storefront_site_branding' ) ) {
 		<div class="site-branding">
 			<?php storefront_site_title_or_logo(); ?>
 		</div>
+
+		<div class="logo-mobile">
+			<img src="<?= get_template_directory_uri();  ?>/assets/images/logo-menu-menor.png" alt="logo">
+		</div>
 		<?php
 	}
 }
@@ -565,7 +569,7 @@ if ( ! function_exists( 'storefront_homepage_content' ) ) {
 	 */
 	function storefront_homepage_content() {
 		echo "<div class='banner-principal'>";
-			echo do_shortcode( '[smartslider3 slider=2]' );
+			echo do_shortcode( '[smartslider3 slider=3]' );
 		echo "</div>";
 	}
 }

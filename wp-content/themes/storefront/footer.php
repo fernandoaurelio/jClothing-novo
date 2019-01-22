@@ -27,23 +27,35 @@
 			do_action( 'storefront_footer' );
 			?>
 
-		</div><!-- .col-full -->
+		</div><!-- .col-full -->				
 	</footer><!-- #colophon -->
-		<div class="campo-footer">
-			<div class="campo-footer-container">
-				<div class="pagamentos">
-					<img src="//assets.pagseguro.com.br/ps-integration-assets/banners/pagamento/avista_estatico_550_70.gif" alt="Logotipos de meios de pagamento do PagSeguro" title="Este site aceita pagamentos com as principais bandeiras e bancos, saldo em conta PagSeguro e boleto.">
-				</div>
-				<div class="seguranca">
-					aqui tem segurança
-				</div>
-			</div>
-		</div>		
+	
 
 	<?php do_action( 'storefront_after_footer' ); ?>
 
 </div><!-- #page -->
-
+<div class="campo-footer">
+	<div class="campo-footer-container">
+		<div class="pagamentos">
+			<h4>Pagamentos</h4>
+			<img src="//assets.pagseguro.com.br/ps-integration-assets/banners/pagamento/avista_estatico_550_70.gif" alt="Logotipos de meios de pagamento do PagSeguro" title="Este site aceita pagamentos com as principais bandeiras e bancos, saldo em conta PagSeguro e boleto.">
+		</div>
+		<div class="seguranca">
+			<h4>Segurança</h4>
+			<img src="<?= get_template_directory_uri();  ?>/assets/images/selo_ssl.png" alt="certificado ssl">
+		</div>
+	</div>
+</div>	
+<div class="footer-rodape">
+	<div class="footer-rodape-texto">		
+		<div class="footer-rodape-1">		
+			<p>J.Clothing - 2019</p>
+		</div>
+		<div class="footer-rodape-2">		
+			<p>Todos os direitos reservados. Leia nossa <a href="">Política de Privacidade</a></p>
+		</div>
+	</div>
+</div>
 <?php wp_footer(); ?>
 
 </body>

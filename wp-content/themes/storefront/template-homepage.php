@@ -33,12 +33,18 @@ get_header(); ?>
 			?>
 
 		</main><!-- #main -->
-				<section class="instagram">
-			<h5>Siga a Jay Clothing no instagram</h5>
-			<?php 
-				echo do_shortcode( '[instagram-feed num=8 cols=4 showfollow=false]' );
-			 ?>
-		</section>
+			<section class="instagram">
+				<h4 style="text-align: center;">Instagram</h4>
+				<?php 
+					echo do_shortcode( '[instagram-feed num=8 cols=4 showfollow=false]' );
+				 ?>
+			</section>
+			<section class="instagram-mobile">
+				<h4 style="text-align: center;">Instagram</h4>
+				<?php 
+					echo do_shortcode( '[instagram-feed num=1 cols=1 showfollow=false]' );
+				 ?>
+			</section>
 	</div><!-- #primary -->
 <?php
 get_footer();

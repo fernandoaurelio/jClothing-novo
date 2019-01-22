@@ -259,7 +259,7 @@ if ( ! function_exists( 'storefront_product_categories' ) ) {
 				'columns'          => 2,
 				'child_categories' => 0,
 				'orderby'          => 'name',
-				'title'            => __( 'Shop by Category', 'storefront' ),
+				'title'            => '',
 			)
 		);
 
