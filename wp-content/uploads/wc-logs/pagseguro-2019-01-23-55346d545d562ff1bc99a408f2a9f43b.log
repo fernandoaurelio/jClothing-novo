@@ -1,0 +1,84 @@
+01-23-2019 @ 19:44:06 - Requesting token for order 452 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[WC-452]]></reference>
+  <sender>
+    <email><![CDATA[fernandoaurelios@gmail.com]]></email>
+    <name><![CDATA[Fernnado Teste]]></name>
+    <phone>
+      <areaCode>54</areaCode>
+      <number>546546546</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Monsenhor Gercino]]></street>
+      <complement><![CDATA[4631]]></complement>
+      <postalCode>89230325</postalCode>
+      <city><![CDATA[Joinville]]></city>
+      <state>SC</state>
+      <country>BRA</country>
+    </address>
+    <cost>24.43</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Camiseta com gola V]]></description>
+      <amount>5.00</amount>
+      <quantity>2</quantity>
+    </item>
+    <item>
+      <id>2</id>
+      <description><![CDATA[Camiseta Jay Clothing]]></description>
+      <amount>98.00</amount>
+      <quantity>2</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[http://192.168.0.20/jClothing-novo/finalizar-compra/order-received/452/?key=wc_order_5c48e01faa491]]></redirectURL>
+  <notificationURL><![CDATA[http://192.168.0.20/jClothing-novo/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+01-23-2019 @ 19:44:07 - PagSeguro Payment Token created with success! The Token is: 98F1A17BDEDE6E1BB4347FA6CC04C586
+01-23-2019 @ 20:37:55 - Requesting token for order 453 with the following data: <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<checkout>
+  <currency>BRL</currency>
+  <reference><![CDATA[WC-453]]></reference>
+  <sender>
+    <email><![CDATA[fernandoaurelios@gmail.com]]></email>
+    <name><![CDATA[Fernnado Teste]]></name>
+    <phone>
+      <areaCode>54</areaCode>
+      <number>546546546</number>
+    </phone>
+  </sender>
+  <shipping>
+    <type>3</type>
+    <address>
+      <street><![CDATA[Rua Monsenhor Gercino]]></street>
+      <complement><![CDATA[4631]]></complement>
+      <postalCode>89230325</postalCode>
+      <city><![CDATA[Joinville]]></city>
+      <state>SC</state>
+      <country>BRA</country>
+    </address>
+    <cost>21.67</cost>
+  </shipping>
+  <items>
+    <item>
+      <id>1</id>
+      <description><![CDATA[Camiseta Jay Clothing]]></description>
+      <amount>98.00</amount>
+      <quantity>1</quantity>
+    </item>
+  </items>
+  <redirectURL><![CDATA[http://192.168.0.20/jClothing-novo/finalizar-compra/order-received/453/?key=wc_order_5c48ecb95f646]]></redirectURL>
+  <notificationURL><![CDATA[http://192.168.0.20/jClothing-novo/wc-api/WC_PagSeguro_Gateway/]]></notificationURL>
+  <maxUses>1</maxUses>
+  <maxAge>120</maxAge>
+</checkout>
+
+01-23-2019 @ 20:37:55 - PagSeguro Payment Token created with success! The Token is: DC48A6732E2E267BB478FF996A9446B9

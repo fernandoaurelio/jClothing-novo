@@ -98,6 +98,7 @@ function wc_show_attribute_links() {
 
 function jc_add_shortcodes() {
     require_once( 'library/shortcodes/jc-shortcode-cliente-login.php' ); 
+    //require_once( 'library/PHPMailer/wpjc-email-sender.php' ); 
 }
 add_action( 'after_setup_theme', 'jc_add_shortcodes' );
 
@@ -110,4 +111,9 @@ add_action( 'wp_enqueue_scripts', 'es_add_scripts' );
 add_action( 'wp_enqueue_scripts', 'bg_load_google_fonts' );
 function bg_load_google_fonts() {
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Roboto:300i,400,700', array(), true );
+}
+
+add_filter('wpcf7_form_action_url', 'wpcf7_custom_form_action_url');
+function wpcf7_custom_form_action_url(){
+    return get_template_directory_uri().'/library/PHPMailer/wpjc-email-sender.php';
 }

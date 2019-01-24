@@ -1,0 +1,6 @@
+Easy WP SMTP debug log file
+
+SMTP ERROR: Failed to connect to server: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu.
+ (10060)SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting

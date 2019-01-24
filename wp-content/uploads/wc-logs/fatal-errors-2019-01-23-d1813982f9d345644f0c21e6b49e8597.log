@@ -1,0 +1,20 @@
+2019-01-23T22:21:20+00:00 CRITICAL require_once(): Failed opening required 'library/PHPMailer/wpjc-email-sender.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\jClothing-novo\wp-content\themes\storefront\functions.php, na linha 101
+
+2019-01-23T22:21:33+00:00 CRITICAL require_once(): Failed opening required 'library/PHPMailer/wpjc-email-sender.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\jClothing-novo\wp-content\themes\storefront\functions.php, na linha 101
+
+2019-01-23T22:21:38+00:00 CRITICAL require_once(): Failed opening required 'library/PHPMailer/wpjc-email-sender.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\jClothing-novo\wp-content\themes\storefront\functions.php, na linha 101
+
+2019-01-23T22:22:20+00:00 CRITICAL require_once(): Failed opening required 'library/PHPMailer/wpjc-email-sender.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\jClothing-novo\wp-content\themes\storefront\functions.php, na linha 101
+
+2019-01-23T22:22:33+00:00 CRITICAL require_once(): Failed opening required 'library/PHPMailer/wpjc-email-sender.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\jClothing-novo\wp-content\themes\storefront\functions.php, na linha 101
+
+2019-01-23T22:23:20+00:00 CRITICAL require_once(): Failed opening required 'library/PHPMailer/wpjc-email-sender.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\jClothing-novo\wp-content\themes\storefront\functions.php, na linha 101
+
+2019-01-23T22:23:33+00:00 CRITICAL require_once(): Failed opening required 'library/PHPMailer/wpjc-email-sender.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\jClothing-novo\wp-content\themes\storefront\functions.php, na linha 101
+
+2019-01-23T22:23:39+00:00 CRITICAL require_once(): Failed opening required 'library/PHPMailer/wpjc-email-sender.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\jClothing-novo\wp-content\themes\storefront\functions.php, na linha 101
+
+2019-01-23T22:24:20+00:00 CRITICAL require(): Failed opening required 'PHPMailer/vendor/autoload.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\jClothing-novo\wp-content\themes\storefront\library\PHPMailer\wpjc-email-sender.php, na linha 9
+
+2019-01-23T22:24:33+00:00 CRITICAL require(): Failed opening required 'PHPMailer/vendor/autoload.php' (include_path='C:\xampp\php\PEAR'), em C:\xampp\htdocs\jClothing-novo\wp-content\themes\storefront\library\PHPMailer\wpjc-email-sender.php, na linha 9
+
