@@ -2252,7 +2252,6 @@ button.menu-toggle::after {
 .hentry .entry-header {
     margin-bottom: 2.617924em
 }
-.handheld-navigation,
 .main-navigation.toggled .handheld-navigation,
 .main-navigation.toggled div.menu,
 .menu-toggle {
@@ -2468,11 +2467,34 @@ ul.menu li.current-menu-item>a {
         padding: 0
     }
 }
-
-
-
-
-
-
-
-
+.footer-sobe-container{
+    display: block;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    text-align: center;
+    font-size: 34px;
+    line-height: 54px;
+    height: 61px;
+    width: 62px;
+    border-radius: 50%;
+    z-index: 100;
+    outline: none!important;
+    transition: background-color .3s , box-shadow .3s , bottom .3s;
+    background-color: rgba(0,0,0,.3);
+    color: #fff!important;
+}
+.footer-sobe-container:hover{
+    background-color: rgba(44,45,51,.3);
+}
+.footer-sobe-bola:before{
+    content: '\f106';
+    font-family: FontAwesome;
+}
+.label_39._bottom_3v._pad100_GR{
+    right: 80px !important;
+}
+._orinationRight_25.wrap_mW{
+    left: 28px !important;
+    bottom: 46px !important;
+}

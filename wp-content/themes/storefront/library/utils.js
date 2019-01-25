@@ -7,17 +7,17 @@ jQuery(document).ready(function(){
 		jQuery(this).toggleClass("selecionado");
 	});
 	jQuery(window).bind('scroll', function () {
-    if (jQuery(window).scrollTop() > 50) {
-        jQuery('.storefront-primary-navigation').addClass('fixo');
-    } else {
-        jQuery('.storefront-primary-navigation').removeClass('fixo');
-    }
-});
+		if (jQuery(window).scrollTop() > 50) {
+			jQuery('.storefront-primary-navigation').addClass('fixo');
+		} else {
+			jQuery('.storefront-primary-navigation').removeClass('fixo');
+		}
+	});
 
 	/*COnfigs mobile*/
 	var mobile = '';
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
- 		mobile = true;
+		mobile = true;
 	}else{
 		mobile = false;
 	}
@@ -30,6 +30,7 @@ jQuery(document).ready(function(){
 		jQuery(".instagram").show();
 		jQuery(".instagram-mobile").hide();
 		jQuery(".logo-mobile").hide();
+		jQuery(".label_39._bottom_3v._pad100_GR").show();
 	}
 	if(mobile == /iPad/i.test(navigator.userAgent) ){
 		jQuery(".logo-mobile").addClass("logo-mobile-ipad");
@@ -44,4 +45,21 @@ jQuery(document).ready(function(){
 			jQuery("#menu-principal").toggle();
 		});
 	}
+
+	/*Scroll action*/
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			document.getElementById("footer-sobe-container").style.display = "block";
+		} else {
+			document.getElementById("footer-sobe-container").style.display = "none";
+		}
+	}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
 });

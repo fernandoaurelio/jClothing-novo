@@ -4,7 +4,10 @@
      float: left;
      display: block;
  }
- .textwidget.custom-html-widget .icones-footer{
+ .footer-sobe-container{
+    bottom: 70px !important;
+}
+.textwidget.custom-html-widget .icones-footer{
     width: 100%;
     margin: 0 auto;
     padding: 7px 0px 4px 0;
@@ -23,7 +26,7 @@
 }
 }
 @media (max-width: 768px){
-    .wp-live-chat-wraper{
+    .wrap_mW._show_1e._orinationRight_25._showLogo_3q.__jivoMobileButton{        
         display: none;
     }
     .footer-widgets.col-4 .block.footer-widget-4{
@@ -151,7 +154,7 @@
         float: right;
     }
 }
-@media (max-width: 320px){
+@media (max-width : 411px){
     .main-navigation ul.menu{
         display: block !important;
     }
@@ -161,7 +164,25 @@
         display: none;
     }
     .main-navigation.toggled .handheld-navigation{
-        top: 100px;
+        top: 70px;
+        left: 0;
+    }
+    .logo-mobile{        
+        width: 50%;
+        float: right;
+    }
+}
+@media only screen and (min-width: 320px)and(max-device-width : 480px){
+    .main-navigation ul.menu{
+        display: block !important;
+    }
+    .menu-item-74,
+    .menu-item-106,
+    .menu-item-80{
+        display: none;
+    }
+    .main-navigation.toggled .handheld-navigation{
+        top: 70;
         left: 0;
     }
     .logo-mobile{        
